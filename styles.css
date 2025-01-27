@@ -1,0 +1,27 @@
+/* Center the div and its content */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: Add a background color */
+  }
+  
+  .container {
+    text-align: center; /* Center the text and logo */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between logo and title */
+  }
+  
+  .title {
+    font-size: 48px; /* Big font size for the title */
+    font-family: Arial, sans-serif; /* Choose a font */
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+  }
