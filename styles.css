@@ -6,7 +6,6 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f0f0; /* Optional: Add a background color */
   }
   
   .container {
@@ -14,7 +13,7 @@ body, html {
   }
   
   .logo {
-    width: 100px; /* Adjust the size of the logo */
+    width: 400px; /* Adjust the size of the logo */
     height: auto; /* Maintain aspect ratio */
     margin-bottom: 20px; /* Space between logo and title */
   }
