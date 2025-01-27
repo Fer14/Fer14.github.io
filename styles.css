@@ -24,3 +24,9 @@ body, html {
     color: #333; /* Text color */
     margin: 0; /* Remove default margin */
   }
+
+  .video {
+    width: 50%; /* Adjust video width */
+    max-width: 600px; /* Maximum width for the video */
+    height: auto; /* Maintain aspect ratio */
+  }
