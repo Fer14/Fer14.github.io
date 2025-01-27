@@ -6,6 +6,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: transparent; /* Ensure no background color */
   }
   
   .container {
