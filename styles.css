@@ -210,3 +210,64 @@ body {
   background-color: #fff; /* Invert colors on hover */
   color: #000;
 }
+
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .subtitle {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .timeline-line {
+    left: 20px; /* Move the timeline line to the left */
+  }
+
+  .timeline-item {
+    margin-bottom: 40px; /* Reduce spacing between items */
+  }
+
+  .timeline-date {
+    left: 20px; /* Adjust date position */
+    transform: translateY(-50%); /* Center vertically */
+  }
+
+  .project {
+    width: 80%; /* Wider projects for better readability */
+    margin-left: 40px; /* Align with the timeline line */
+  }
+
+  .project.left, .project.right {
+    margin-left: 40px; /* Align all projects to the left */
+    margin-right: 0;
+  }
+
+  .project-logo {
+    max-width: 80px; /* Smaller logos for mobile */
+  }
+
+  .project-title {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  .project-description {
+    font-size: 0.9rem; /* Smaller font size for mobile */
+  }
+
+  .project-link {
+    padding: 8px 16px; /* Smaller padding for mobile */
+  }
+
+  .footer {
+    font-size: 0.8rem; /* Smaller font size for mobile */
+  }
+
+  .social-links a {
+    font-size: 1.2rem; /* Smaller icons for mobile */
+    width: 35px; /* Smaller width for mobile */
+    height: 35px; /* Smaller height for mobile */
+  }
+}
